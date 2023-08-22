@@ -1,0 +1,488 @@
+body{
+    font-family: 'Inter', sans-serif;
+}
+.navbar{
+    font-weight: bold;
+    color: black;
+}
+.nav-item{
+    
+    padding-left: 30px;
+}
+.check-icon{
+    color:#437EF7;
+    
+}
+.workflow-container{
+    padding-top: 20px;
+    font-size: 18px; 
+    font-weight: 400;
+}
+.first-container{
+    background-color:#F8F9FB;
+    margin-top: 0px;
+}
+.input-group{
+    padding-right: 30px;
+}
+.cards{
+    border-radius: 5px;
+    text-align: center;
+    padding: 35px;
+    background-color: white;
+    margin: 0 5px;
+    position: relative;
+    z-index: 1;
+}
+.card-icons{
+    width:16.67px;
+    height: 18.33px;
+    top:0.83px;
+    left:1.67px;
+    color: white;
+}
+.icon-holder{
+    background-color: #F04438;
+    color: azure;
+    width: 52px;
+    height: 52px;
+    font-size: 10px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 16px;
+}
+#card-icon-1{
+    background-color: #F04438;
+}
+#card-icon-2{
+    background-color: #5DC264;
+}
+#card-icon-3{
+    background-color: #437EF7;
+}
+#card-icon-4{
+    background-color: #FFAE43;
+}
+.Design-div{
+    padding: 150px ;
+}
+#search-bar{
+    width: 420px;
+}
+.custom-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 13px;
+    justify-content: center;
+}
+.custom-column {
+    flex: 1 1 calc(25% - 10px);
+    padding: 10px;
+}
+.center-text{
+    text-align: center;
+}
+#customer-div{
+    background-color: #2B63D9;
+    ;
+    color: white;
+}
+#customer-picture{
+    width:50px; 
+    float:left;
+    border-radius: 50%;
+}
+.customer-logo{
+    font-size: 30px;
+}
+.customer{
+    display: flex;
+}
+.customer-box{
+    
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #3971E7;
+    /* margin: 0 5px; */
+}
+.center {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+.card{
+    border: 0px solid;
+}
+.blog-picture{
+    width: 100%;
+    height: 120px;
+    object-fit: fill;
+}
+.blog-div{
+    font-size: 15px;
+}
+.arrow-color{
+    color: #437EF7;
+}
+.footer-buttons{
+    text-decoration: none;
+    color: darkgray;
+    padding: 15px;
+}
+.footer-icons{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+.footer-icon-parent-div{
+    text-align: right;
+}
+.footer{
+    background-color: #151B28;
+}
+hr.new1 {
+    border-top: 1px solid darkgray;
+}
+.footer-privacy{
+    text-decoration: none;
+    color: darkgray;
+    text-align: right;
+}
+.footer-copyright{
+    color: darkgray;
+}
+.middle-icon{
+    background-color: gray;
+    color: azure;
+    width: 52px;
+    height: 52px;
+    font-size: 10px;
+    text-align: center;
+    padding: 16px;
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    z-index: 1;
+}
+.img1{
+    position: absolute;
+    top: 0;
+    right: 60%;
+}
+.img2{
+    position: absolute;
+    left: 90%;
+    top: 80%;
+}
+.card-background{
+    /* background-image: url("36.png");
+    background-repeat: no-repeat; */
+}
+.card-background-2{
+    
+    position: relative;
+    /* background-image: url('83.png');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    
+    overflow: hidden; */
+    z-index: 0;
+}
+.card-background-2::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Place the pseudo-element behind the columns */
+}
+#card-2{
+    z-index: 0;
+}
+.res-spacing{
+    width: 70%;
+    margin: auto;
+    padding-top: 10px ;
+    
+}
+.image-mobile{
+    width: 90%;  
+    margin: auto;
+}
+.customer-div-res{
+    width: 60%; 
+    margin: auto;
+}
+.blog-post{
+    width: 75%;
+     margin: auto;
+}
+.ind-div{
+    width: 75%; 
+    margin: auto;
+}
+#submit-div{
+    width: 50%;
+}
+.remove{
+    display: none;
+}
+.No-Matter{
+    font-size: 16px; 
+    font-weight: 500;
+}
+.redef-div{
+    text-align: center;
+}
+#search-box{
+    width: 80%;
+    margin: auto;
+}
+#mobile{
+    width: 70%;
+    margin: auto;
+}
+@media (max-width: 767px) {
+    #mobile{
+        width: 100%;
+        margin: auto;
+    }
+    .custom-column {
+        flex: 1 1 100%;
+    }
+    .footer-logo {
+        text-align: center;
+    }
+    .footer-buttons-mobile{
+        text-align: center;
+        padding-top: 10px;
+    }
+    .footer-icon-parent-div{
+        text-align: center;
+        padding-top: 10px;
+    }
+    .footer-copyright{
+        text-align: center;
+    }
+    .hide-mobile{
+        display: none;
+    }
+    .form-control{
+        width: 100%
+    }
+    #search{
+        width: 100%;
+        border-radius: 5px;
+    }
+    #submit-button{
+        width: 100%;
+        display: block;
+        border-radius: 5px;
+        margin-top: 5px;
+        
+    }
+    .card-div-mobile{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .blog-picture{
+       height: 180px;
+    }
+    .image-mobile{
+        width: 100%;
+    }
+    .image-mobile-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        width: 87%;
+    }
+    #mobile{
+        text-align: left;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .Design-div{
+        order: 2;
+        padding: 0px ;
+    }
+    .cards-div{
+        order: 1;
+    }
+    .Demonstrate-div{
+        order: 2;
+    }
+    .image-div{
+        order: 1;
+    }
+    .footer-last-buttons{
+        order: 1;
+    }
+    .footer-copyright{
+        order: 2;
+    }
+    .remove{
+        display: block;
+        padding-top: 5px;
+        color: #5F6D7E;
+    }
+    .No-Matter{
+        margin-top: -30px;
+    }
+    .res-spacing{
+        width: 100%;
+        margin: auto;
+        padding-top: 10px ;
+    }
+    #responsive-spacing{
+        margin-top: -50px;
+    }
+    #customer-div{
+        margin-top: -80px;
+        padding: 20px;
+    }
+    .customer-div-res{
+        width: 100%;
+        margin: auto;
+        padding: 10px;
+    }
+    #submit-div{
+        padding: 0px;
+        width: 100%;
+        margin: auto;
+    }
+    #search-box{
+        width: 100%;
+        margin: auto;
+        padding: 0px;
+    }
+    .img1{
+        position: absolute;
+        top: 0;
+        right: 92%;
+        width: 10%;
+    }
+    .middle-icon {
+        background-color: gray;
+        color: azure;
+        width: 52px;
+        height: 52px;
+        font-size: 10px;
+        text-align: center;
+        padding: 16px;
+        position: absolute;
+        top: 45%;
+        left: 44%;
+        z-index: 1;
+    }
+    .img2 {
+        position: absolute;
+        left: 90%;
+        top: 85%;
+    }
+    #footer-term{
+        text-align: right;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .image-mobile{
+        width: 100%;
+    }
+    .image-mobile-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        width: 91%;
+    }
+    .img1{
+        position: absolute;
+        top: 7%;
+        right: 70%;
+    }
+    .middle-icon{
+        background-color: gray;
+        color: azure;
+        width: 52px;
+        height: 52px;
+        font-size: 10px;
+        text-align: center;
+        padding: 16px;
+        position: absolute;
+        top: 45%;
+        left: 46%;
+        z-index: 1;
+    }
+    .custom-column {
+        flex: 1 1 calc(50% - 10px);
+    }
+    .Design-div{
+        order: 2;
+        padding: 20px ;
+    }
+    .cards-div{
+        padding: 50px;
+        order: 1;
+    }
+    .Demonstrate-div{
+        order: 2;
+    }
+    .image-div{
+        order: 1;
+    }
+    .super-res{
+        width: 70%;
+        font-size: 52px; 
+        font-weight: 700;
+    }
+    .res-spacing{
+        width: 100%;
+        margin: auto;
+        padding-top: 10px ;
+    }
+    .image-mobile{
+        width: 100%;
+        margin: auto;
+    }
+    .image-mobile-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        width: 87%;
+    }
+    #responsive-spacing{
+        margin-top: -50px;
+    }
+    #customer-div{
+        margin-top: -100px;
+    }
+    .customer-div-res{
+        width:100%;
+        margin: auto;
+    }
+    .blog-post{
+        width: 100%;
+        margin: auto;
+        padding-bottom: 20px;
+    }
+    .hide-mobile{
+        display: none;
+    }
+    #submit-div{
+        width: 100%;
+        margin: auto;
+    }
+    .footer-buttons{
+        padding: 5px;
+    }
+    .footer-icons{
+        padding: 5px;
+    }
+    .footer-last-buttons{
+        text-align: right;
+    }
+}
