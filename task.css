@@ -275,6 +275,9 @@ hr.new1 {
   margin-bottom: 10px;
   }
 @media (max-width: 767px) {
+    .cards-div{
+        order: 1;
+    }
     .card-image-1{
         height: 170px;
     }
@@ -375,13 +378,10 @@ hr.new1 {
         align-items: center;
         margin: auto;
         width: 100%;
-    }S
+    }
     .Design-div{
         order: 2;
         padding: 0px ;
-    }
-    .cards-div{
-        order: 1;
     }
     .Demonstrate-div{
         order: 2;
