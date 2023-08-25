@@ -148,6 +148,8 @@ html * {
 }
 hr.new1 {
     border-top: 1px solid darkgray;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 .footer-privacy{
     text-decoration: none;
@@ -272,14 +274,17 @@ hr.new1 {
     width: 100%;
     margin: auto;
 }
+.image-mobile-3{
+    display: none;
+}
 .col-sm-6.cust-col {
     flex-basis: 33%;
     max-width: 33%;
   }
   .footer-last-buttons{
     display: flex;
-  justify-content: space-between;
-  margin-bottom: 10px;
+    justify-content: space-between;
+    margin-bottom: 10px;
   }
   .card-text-1{
     font-size: 32.54px; 
@@ -393,7 +398,13 @@ hr.new1 {
        height: 180px;
     }
     .image-mobile{
+        display: none;
         width: 100%;
+        
+    }
+    .image-mobile-3{
+        width: 100%;
+        display: block;
     }
     .image-mobile-2{
         display: flex;
@@ -495,6 +506,12 @@ hr.new1 {
     }
 }
 @media (min-width: 768px) and (max-width: 991px) {
+    .tab-container{
+        padding: 0% 1%;
+    }
+    .my-container{
+        padding: 0% 3% !important;
+    }
     .card-text-1{
         font-size: 26px; 
         font-weight: 700;
@@ -563,7 +580,7 @@ hr.new1 {
         margin-top: -50px;
     }
     #customer-div{
-        margin-top: -100px;
+        padding: 0px;
     }
     .customer-div-res{
         width:100%;
