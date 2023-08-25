@@ -294,6 +294,9 @@ hr.new1 {
     font-size: 15px; 
     font-weight: 500;
   }
+  .tab-container{
+    padding: 0% 7%;
+}
 @media (max-width: 767px) {
     .card-text-1{
         font-size: 15.92px; 
@@ -507,7 +510,11 @@ hr.new1 {
 }
 @media (min-width: 768px) and (max-width: 991px) {
     .tab-container{
-        padding: 0% 1%;
+        padding: 0% 0.1%;
+        margin-bottom: -15px;
+    }
+    .navbar{
+        padding: 5px;
     }
     .my-container{
         padding: 0% 3% !important;
