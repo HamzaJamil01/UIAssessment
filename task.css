@@ -281,7 +281,23 @@ hr.new1 {
   justify-content: space-between;
   margin-bottom: 10px;
   }
+  .card-text-1{
+    font-size: 32.54px; 
+    font-weight: 700;
+  }
+  .card-text-2{
+    font-size: 15px; 
+    font-weight: 500;
+  }
 @media (max-width: 767px) {
+    .card-text-1{
+        font-size: 15.92px; 
+        font-weight: 700;
+      }
+      .card-text-2{
+        font-size: 12px; 
+        font-weight: 500;
+      }
     .cards-div{
         order: 1;
     }
@@ -479,6 +495,10 @@ hr.new1 {
     }
 }
 @media (min-width: 768px) and (max-width: 991px) {
+    .card-text-1{
+        font-size: 26px; 
+        font-weight: 700;
+      }
     .image-mobile{
         display: none;
     }
