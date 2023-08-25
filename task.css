@@ -122,9 +122,9 @@ html * {
     height: 115px;
     object-fit: fill;
 }
-.blog-div{
+/* .blog-div{
     font-size: 15px;
-}
+} */
 .arrow-color{
     color: #437EF7;
 }
@@ -132,6 +132,8 @@ html * {
     text-decoration: none;
     color: darkgray;
     padding: 15px;
+    font-size: 16px;
+    font-weight: 500;
 }
 .footer-icons{
     text-decoration: none;
@@ -151,10 +153,14 @@ hr.new1 {
     text-decoration: none;
     color: darkgray;
     text-align: right;
+    font-size: 16px;
+    font-weight: 500;
 }
 .footer-copyright{
     color: darkgray;
     display: block;
+    font-size: 16px;
+    font-weight: 400;
 }
 .middle-icon{
     background-color: #303030;
@@ -165,7 +171,7 @@ hr.new1 {
     font-size: 10px;
     text-align: center;
     padding: 16px;
-    position: relative;
+    position: absolute;
     bottom: 44%;
     left: 46%;
     z-index: 1;
@@ -176,9 +182,9 @@ hr.new1 {
     right: 60%;
 }
 .img2{
-    position: relative;
+    position: absolute;
     left: 86%;
-    bottom: 13%;
+    bottom: 1%;
     z-index: 1;
 }
 .card-background{
@@ -213,6 +219,8 @@ hr.new1 {
     width: 70%;
     margin: auto;
     padding-top: 10px ;
+    font-weight: 400;
+    font-size: 16px;
     
 }
 .tab-picture{
@@ -440,7 +448,6 @@ hr.new1 {
     }
     .middle-icon {
         background-color: #303030;
-        ;
         color: azure;
         width: 52px;
         height: 52px;
@@ -448,14 +455,13 @@ hr.new1 {
         text-align: center;
         padding: 16px;
         position: absolute;
-        top: 36%;
         left: 43%;
         z-index: 1;
     }
     .img2 {
-        position: relative;
+        position: absolute;
         left: 90%;
-        bottom: 11%;
+        bottom: 1%;
         z-index: 1;
     }
     .line-image{
@@ -497,7 +503,6 @@ hr.new1 {
         text-align: center;
         padding: 16px;
         position: absolute;
-        top: 38%;
         left: 46%;
         z-index: 1;
     }
@@ -563,16 +568,22 @@ hr.new1 {
     .footer-last-buttons{
         text-align: right;
     }
+    .img2{
+        position: absolute;
+        left: 86%;
+        bottom: 1%;
+        z-index: 1;
+    }
 }
 @media (min-width: 1441px) and (max-width: 2560px) {
     .big-screen{
         width: 100%;
-        height: 180px;
+        height: 150px;
         margin: auto;
     }
     .blog-picture{
         width: 100%;
-        height: 140px;
+        height: 70%;
         margin: auto;
     }
     .middle-icon {
@@ -584,8 +595,16 @@ hr.new1 {
         text-align: center;
         padding: 16px;
         position: absolute;
-        top: 37%;
         left: 47.5%;
         z-index: 1;
     }
+    .img2{
+        position: absolute;
+        left: 92%;
+        bottom: 1%;
+        z-index: 1;
+    }
+}
+@media (max-width: 362px){
+    
 }
