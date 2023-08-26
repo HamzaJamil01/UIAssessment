@@ -24,7 +24,6 @@ html * {
 }
 .first-container{
     background-color:#F8F9FB;
-    margin-top: 0px;
 }
 .input-group{
     padding-right: 30px;
@@ -148,8 +147,8 @@ html * {
 }
 hr.new1 {
     border-top: 1px solid darkgray;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .footer-privacy{
     text-decoration: none;
@@ -228,8 +227,9 @@ hr.new1 {
     display: none;
 }
 .image-mobile{
-    width: 100%;
+    width: 90%;
     margin: auto;
+    float: right;
 }
 .customer-div-res{
     width: 60%; 
@@ -269,6 +269,7 @@ hr.new1 {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    padding-left: 5% !important;
 }
 .image-mobile-2{
     width: 100%;
@@ -297,7 +298,25 @@ hr.new1 {
   .tab-container{
     padding: 0% 7%;
 }
+.new2{
+    margin: 0px;
+}
+.navbar-light .navbar-toggler {
+    color: black;
+    border: 0px;
+    padding: 0px;
+}
 @media (max-width: 767px) {
+    .first-container{
+        padding-top: 5%;
+    }
+    .footer-icons{
+        padding: 30px;
+        font-size: 25px;
+    }
+    .tab-container{
+        padding: 0% 0%;
+    }
     .card-text-1{
         font-size: 15.92px; 
         font-weight: 700;
@@ -366,12 +385,14 @@ hr.new1 {
         text-align: center;
     }
     .footer-buttons-mobile{
-        /* text-align: center; */
+        padding-top: 10px;
+        display: flex;
+        justify-content: space-between;
+    
         padding-top: 10px;
     }
     .footer-icon-parent-div{
         text-align: center;
-        padding-top: 10px;
     }
     .footer-copyright{
         text-align: center;
@@ -431,6 +452,7 @@ hr.new1 {
         order: 1;
     }
     .footer-copyright{
+        padding-top: 10px;
         order: 2;
     }
     .remove{
@@ -484,6 +506,7 @@ hr.new1 {
         text-align: center;
         padding: 16px;
         position: absolute;
+        top: 42%;
         left: 43%;
         z-index: 1;
     }
@@ -502,20 +525,32 @@ hr.new1 {
         padding-bottom: 20px;
     }
     .footer-buttons{
-        padding: 4px;
+        /* padding: 4px; */
     }
     .input-group{
         padding: 0%;
     }
 }
 @media (min-width: 768px) and (max-width: 991px) {
+    .first-container{
+        padding-top: 5%;
+    }
+    .new2{
+        margin-top: 2%;
+    }
+    .Demonstrate-div-2{
+        padding-left: 0%;
+    }
+    .dem-row{
+        padding-left: 2% !important;
+    }
     .tab-container{
         padding: 0% 0.1%;
         margin-bottom: -15px;
     }
-    .navbar{
-        padding: 5px;
-    }
+    /* .navbar{
+        padding: ;
+    } */
     .my-container{
         padding: 0% 3% !important;
     }
